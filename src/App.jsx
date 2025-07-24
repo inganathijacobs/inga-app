@@ -239,7 +239,6 @@ function Movie({ name, poster, summary, rating }) {
             </p>
           </div>
           <button onClick={() => setShow(!show)}>
-            {" "}
             Toggle Summary
           </button>
           <p style={summaryStyles} className="movie-summary">{summary}</p>
