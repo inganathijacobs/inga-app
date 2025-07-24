@@ -221,10 +221,11 @@ function Movie({ name, poster, summary, rating }) {
   const ratingStyles = {
     color: rating > 8.5 ? "green" : "red",
   };
-  const toggleSumm = {
-    display: "none",
+  const [show, setShow] = useState(true);
+  const summaryStyles = {
+    display: show ? "block" : "none",
   };
-  const [showSummary, setShowSummary] = useState(true);
+
 
   return (
     <div className="movies-container">
@@ -237,11 +238,11 @@ function Movie({ name, poster, summary, rating }) {
               ⭐ {rating}
             </p>
           </div>
-          <button onClick={() => setShowSummary(!showSummary)}>
+          <button onClick={() => setShow(!show)}>
             {" "}
             Toggle Summary
           </button>
-          <p className="movie-summary">{summary}</p>
+          <p style={summaryStyles} className="movie-summary">{summary}</p>
         </div>
       </div>
     </div>
