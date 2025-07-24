@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  /* img {
+    border-radius: 50%;
+    width: 160px;
+    height: 150px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  } */
+  p {
+    font-weight: normal;
+  }
+  .greeting {
+    font-weight: bold;
+    font-style: normal;
+    font-style: italic;
+  }
+}
+
+.color-form-container {
+  display: flex;
+}
+/* .movies-container {
+  display: flex;
+  flex-wrap: wrap;
+} */
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px; /* spacing between movie cards */
+}
+
+.movie-container {
+  width: 400px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.movie-poster {
+  width: 400px;
+  height: 600px;
+}
+.movie-specs {
+  display: flex;
+  justify-content: space-between;
+}
