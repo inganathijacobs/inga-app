@@ -16,7 +16,7 @@ export default function App() {
       <UserList />
 
       <ColorGame /> */}
-      <Movie/>
+      {/* <Movie/> */}
 
       <MovieList />
 
