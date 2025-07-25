@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { ColorGame } from "./ColorGame";
-import { MsgList } from "./MsgList";
+import { ColorGame } from "./ColorGame.jsx";
+import { MsgList } from "./MsgList.jsx";
 import "./App.css";
-import { UserList } from "./UserList";
+import { UserList } from "./UserList.jsx";
 
 // Component = UI + Logic
 // Default Export
