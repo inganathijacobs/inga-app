@@ -35,10 +35,10 @@ export default function App() {
     <div className="App">
       {/* <UserList />
       <Counter /> */}
-      <ColorGame />
+      {/* <ColorGame /> */}
       <MovieList />
       <Movie />
-      <ColorBox/>
+      {/* <ColorBox/> */}
       {/* <UserList /> */}
     </div>
   );
