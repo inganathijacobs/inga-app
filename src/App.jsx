@@ -12,6 +12,9 @@ import './App.css'
 // import { UserList } from "./UserList";
 import React, { useState } from "react";
 import { ColorGame } from "./ColorGame";
+import { ColorGame } from "./ColorGame";
+import { ColorBox } from "./ColorBox";
+import { ColorBox } from "./ColorBox";
 
 // console.log(dbl(15));
 // console.log(quote);
@@ -66,15 +69,6 @@ function Dislike() {
     </div>
   );
 }
-export function ColorBox({ color }) {
-  const styles = {
-    background: color,
-    height: "25px",
-    width: "250px",
-  };
-  return <div style={styles}></div>;
-}
-
 // Task - Movie Dashboard: map
 // 1. Movie
 // 2. MovieList
