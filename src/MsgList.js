@@ -1,6 +1,6 @@
 import { Msg } from "./Msg";
 
-function MsgList() {
+export function MsgList() {
   const names = ["Jeevan", "Ethan", "Siya", "Jamie"];
 
   console.log(names);

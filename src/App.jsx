@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ColorGame } from "./ColorGame";
 import { MsgList } from "./MsgList";
-import "./styles.css";
+import "./App.css";
 import { UserList } from "./UserList";
 
 // Component = UI + Logic
@@ -15,8 +15,10 @@ export default function App() {
       <UserList />
 
       <ColorGame /> */}
+      <Movie/>
 
       <MovieList />
+
     </div>
   );
 }
