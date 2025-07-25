@@ -12,8 +12,6 @@ import './App.css'
 // import { UserList } from "./UserList";
 import React, { useState } from "react";
 import { ColorGame } from "./ColorGame";
-import { ColorGame } from "./ColorGame";
-import { ColorBox } from "./ColorBox";
 import { ColorBox } from "./ColorBox";
 
 // console.log(dbl(15));
@@ -37,9 +35,10 @@ export default function App() {
     <div className="App">
       {/* <UserList />
       <Counter /> */}
-      {/* <ColorGame /> */}
+      <ColorGame />
       <MovieList />
       <Movie />
+      <ColorBox/>
       {/* <UserList /> */}
     </div>
   );
