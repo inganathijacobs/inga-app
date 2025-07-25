@@ -4,6 +4,11 @@ import { MsgList } from "./MsgList.jsx";
 import "./App.css";
 import { UserList } from "./UserList.jsx";
 import {Counter} from './Counter.jsx';
+import { Routes, Route, Link } from "react-router";
+
+
+
+
 
 // Component = UI + Logic
 // Default Export
@@ -18,7 +23,15 @@ export default function App() {
       <ColorGame /> */}
       {/* <Movie/> */}
 
-      <MovieList />
+      {/* <MovieList /> */}
+      <Link to="/home">Home</Link> | <Link to="/movies">Movies</Link> | <Link to="/colorgame">Colorgame</Link> | <Link to="/users">Users</Link>
+      {/* Routing Setup */}
+      <Routes>
+        <Route path="movies" element={<MovieList />} />
+        <Route path="colorgame" element={<ColorGame />} />
+        <Route path="users" element={<UserList />} />
+        <Route path="home" element={<Home/>} />
+      </Routes>
 
     </div>
   );
@@ -27,6 +40,13 @@ export default function App() {
 // Task - Movie Dashboard: map
 // 1. Movie
 // 2. MovieList
+function Home(){
+  return(
+    <div>
+      <h1>Welcome to Movie App</h1>
+    </div>
+  )
+}
 
 const INITIAL_MOVIES = [
   {
