@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ColorBox } from './ColorBox';
+
 
 // State Changes -> Update UI (useState)
 //Typing event -> Listens-> OnChange, onInpt, onKeyPress
 // onChange -> Works with Text,Checkbox, Radio buttons ,etc
 //event.target -> Where event originate from
 // component is a function of color
-function ColorGame() {
+export function ColorGame() {
   const [color, setColor] = useState("");
 
   const styles = {

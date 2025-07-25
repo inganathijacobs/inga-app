@@ -10,7 +10,7 @@ import './App.css'
 // import { double as dbl, quote } from "./shared";
 // import "./styles.css";
 // import { UserList } from "./UserList";
-import React, { useState } from "react";
+import  { useState } from "react";
 import { ColorGame } from "./ColorGame";
 import { ColorBox } from "./ColorBox";
 
