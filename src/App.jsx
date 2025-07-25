@@ -3,7 +3,7 @@ import { ColorGame } from "./ColorGame.jsx";
 import { MsgList } from "./MsgList.jsx";
 import "./App.css";
 import { UserList } from "./UserList.jsx";
-import Counter from './Counter.jsx';
+import {Counter} from './Counter.jsx';
 
 // Component = UI + Logic
 // Default Export
